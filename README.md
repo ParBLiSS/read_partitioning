@@ -26,17 +26,18 @@ git clone --recursive <URL>
 ```
 
 Set up external submodule (ext/bliss/ext/sparsehash).
+
 ```sh
 ./configure
 make
-```sh
+```
 
 Compile using the cmake tool.
 
 ```sh
 mkdir build_directory && cd build_directory
 cmake ../new_readpartitioning
-make -j <thread count>
+make -j <THREAD COUNT>
 ```
 
 ### Run
