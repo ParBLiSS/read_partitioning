@@ -36,7 +36,7 @@ Compile using the cmake tool.
 
 ```sh
 mkdir build_directory && cd build_directory
-cmake ../new_readpartitioning
+cmake ../read_partitioning
 make -j <THREAD COUNT>
 ```
 
